@@ -28,7 +28,7 @@ namespace pacificgirls
                 WebClient mywebclient = new WebClient();
                 mywebclient.Headers.Add("cookie", "SurferLoyaltyRewards=13216697045213922056");
                 mywebclient.Headers.Add("referer", "http://www.bobx.com/av-idol/haruka-pacificgirls/large-haruka-pacificgirls-" + pici + ".html");
-                mywebclient.Headers.Add("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36");
+                mywebclient.Headers.Add("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3809.87 Safari/537.36");
                 mywebclient.DownloadFile(photoUrl, filepath);
                 Console.WriteLine(photoUrl + " done once\r\n");
             }
