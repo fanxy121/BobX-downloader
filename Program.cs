@@ -9,8 +9,8 @@ namespace pacificgirls
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Start to get photos !!");
-            //2823673  the Ablum start number
-            //2825044  the Ablum end number
+            //2823673  The Ablum start number
+            //2825044  The Ablum end number
             for (int i = 2823673; i < 2825044; i++)
             {
                 string staticUrl = "http://www.bobx.com/av-idol/haruka-pacificgirls/haruka-pacificgirls-0" + i + ".jpg";
