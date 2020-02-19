@@ -7,7 +7,7 @@ namespace pacificgirls
     {
         static void Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("Start to get photos !!");
             //2823673  The Ablum start number
             //2825044  The Ablum end number
@@ -32,7 +32,8 @@ namespace pacificgirls
                 mywebclient.DownloadFile(photoUrl, filepath);
                 Console.WriteLine(photoUrl + " done once\r\n");
             }
-            catch { }
+            catch {
+            }
         }
     }
 }
