@@ -7,8 +7,8 @@ using System.Net;
         {
             Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("Starting to get photos，enjoy the photos!!");
-            //2823673  The Ablum start number
-            //2825044  The Ablum end number
+            //2823673 The Ablum start number
+            //2825044 The Ablum end number
             //There are pacificgirls_924 ablum number,you can change it yourself.
             for (int i = 2823673; i < 2825044; i++)
             {
