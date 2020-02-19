@@ -1,0 +1,37 @@
+﻿using System;
+using System.Net;
+
+namespace pacificgirls
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Start to get photos !!");
+            //2823673  the Ablum start number
+            //2825044  the Ablum end number
+            for (int i = 2823673; i < 2825044; i++)
+            {
+                string staticUrl = "http://www.bobx.com/av-idol/haruka-pacificgirls/haruka-pacificgirls-0" + i + ".jpg";
+                getPhoto(staticUrl, i);
+            }
+        }
+
+        public static void getPhoto(string photoUrl,int pici)
+        {
+            try
+            {
+                string saveName = photoUrl.Replace(photoUrl.Substring(1, photoUrl.LastIndexOf('/')), "");
+                string filepath = "Photo\\" + saveName;
+                WebClient mywebclient = new WebClient();
+                mywebclient.Headers.Add("cookie", "SurferLoyaltyRewards=13216697045213922056");
+                mywebclient.Headers.Add("referer", "http://www.bobx.com/av-idol/haruka-pacificgirls/large-haruka-pacificgirls-" + pici + ".html");
+                mywebclient.Headers.Add("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36");
+                mywebclient.DownloadFile(photoUrl, filepath);
+                Console.WriteLine(photoUrl + " done once\r\n");
+            }
+            catch { }
+        }
+    }
+}
