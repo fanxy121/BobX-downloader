@@ -8,7 +8,7 @@ namespace pacificgirls
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.DarkBlue;
-            Console.WriteLine("Start to get photos !!!");
+            Console.WriteLine("Starting to get photos !!!");
             //2823673  The Ablum start number
             //2825044  The Ablum end number
             //There are pacificgirls_924 ablum number
