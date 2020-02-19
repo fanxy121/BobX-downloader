@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Net;
 
-namespace pacificgirls
-{
     class Program
     {
         static void Main(string[] args)
@@ -36,4 +34,3 @@ namespace pacificgirls
             }
         }
     }
-}
