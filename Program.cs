@@ -10,6 +10,7 @@ using System.Net;
             //2823673 The Ablum start number
             //2825044 The Ablum end number
             //There are pacificgirls_924 ablum number,you can change it yourself.
+            //Test privte
             for (int i = 2823673; i < 2825044; i++)
             {
                 string staticUrl = "http://www.bobx.com/av-idol/haruka-pacificgirls/haruka-pacificgirls-0" + i + ".jpg";
